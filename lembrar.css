@@ -1,0 +1,34 @@
+.criarSenha{
+   font-family: verdana;
+   border-radius: 20px;
+   margin: 10px;
+   font-size: medium;
+   text-align: center;
+   margin-top: 10px;
+ 
+}
+.Email{
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(247, 221, 247);
+}
+.seu{
+    font-family: verdana;
+    border-radius: 20px;
+    margin: 10px;
+    font-size:medium ;
+    padding: 20px;
+    margin-top: 90px;
+    position:relative ;
+    background-color: rgb(255, 252, 249);
+    left: 40%;
+   
+}
+body{
+    background-color: rgb(247, 221, 247);
+}
+.borda{
+    box-shadow: 20px;
+}

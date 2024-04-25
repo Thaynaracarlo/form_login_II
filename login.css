@@ -1,0 +1,88 @@
+button{
+
+    background-color: black;
+    color: white;
+    border-radius: 0.7rem;
+    padding: 5px;
+    top: 0px;
+    text-align: center;
+ 
+ }
+ label{
+ 
+    padding: 4px;
+    border-radius: 0.5rem;
+    left: 480px;
+ 
+ 
+ }
+ 
+ #Senha, #email{
+ 
+    width: 300px;
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 0.5rem;  
+ 
+ }
+ 
+ textarea{
+ 
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 0.5rem;  
+    top: 15px;
+    width: 200px;
+    height: 100px;
+ 
+ }
+
+ form{
+ 
+    border: 2px solid rgb(9, 12, 14);
+    top: 50px;
+    position: relative;
+    text-align:center;
+    height: 400PX;
+
+ }
+ #centro{
+ 
+    position: relative;
+    text-align: center;
+    width: 40%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffe1f7;
+    padding:120px 0;
+ 
+ }
+ 
+ h1{
+    position: relative;
+    top: -20px;
+    left: 10px;
+    font-size: 30px;
+    font-weight:bold;
+    letter-spacing:20px;
+    color:#000000;
+ 
+ }
+ .box-lembrar-senha {
+   background-color: #010508;
+   border-top: 1px solid #fdfdfd;
+   padding: 10px;
+   text-align: center;
+   border-radius: 10px;
+   margin-top: 4%
+
+ }
+ .box-lembrar-senha{
+   padding: 5px;
+ }
+ 
+ 
