@@ -6,7 +6,7 @@
     <title>form login</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
-    <script src='login.js'></script>
+    <script src="login.js"></script>
 </head>
 <body>
    <div id="centro">
@@ -17,20 +17,41 @@
 
         <h1>BEM VINDO</h1>
          <label for="email">E-mail</label><br>
-         <input type="email" id="email" name="email"><br>
+         <input type="email" id="inputEmail4" name="email"><br>
          </p>
 
          <p>
          <label for="subject">Senha</label><br>
-         <input type="text" id="Senha">
+         <input type="password" id="Senha">
          </p>
     
-        <button>Entrar</button>
+        <button type="submit">Entrar</button>
         <div class="box-lembrar-senha">  
             <a class="link" href="lembrar.html" style="color: aliceblue;">Lembrar Senha ?</a>
     </div>
-
+    
         </form>
+        
+ 
+ <script>
+    function validarFormulario(event) {
+        event.preventDefault();
+
+        const email = document.getElementById('inputEmail4').value.trim();
+        const senha = document.getElementById('Senha').value.trim();
+
+        if (email === '' || senha === '') {
+            alert('Por favor, preencha todos os campos antes de continuar.');
+        } else {
+            // Redirecionar para o site desejado após o envio do formulário
+            window.location.href = 'https://seusite.com'; // Substitua 'https://seusite.com' pelo URL do site desejado
+        }
+    }
+
+    document.querySelector('form').addEventListener('submit', validarFormulario);
+</script>
+
+        
 
     
 </div>
